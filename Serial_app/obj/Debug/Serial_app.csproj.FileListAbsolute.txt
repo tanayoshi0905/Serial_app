@@ -1,0 +1,10 @@
+D:\programming\C#\Serial_app\Serial_app\bin\Debug\Serial_app.exe.config
+D:\programming\C#\Serial_app\Serial_app\bin\Debug\Serial_app.exe
+D:\programming\C#\Serial_app\Serial_app\bin\Debug\Serial_app.pdb
+D:\programming\C#\Serial_app\Serial_app\obj\Debug\Serial_app.csproj.AssemblyReference.cache
+D:\programming\C#\Serial_app\Serial_app\obj\Debug\Serial_app.Form1.resources
+D:\programming\C#\Serial_app\Serial_app\obj\Debug\Serial_app.Properties.Resources.resources
+D:\programming\C#\Serial_app\Serial_app\obj\Debug\Serial_app.csproj.GenerateResource.cache
+D:\programming\C#\Serial_app\Serial_app\obj\Debug\Serial_app.csproj.CoreCompileInputs.cache
+D:\programming\C#\Serial_app\Serial_app\obj\Debug\Serial_app.exe
+D:\programming\C#\Serial_app\Serial_app\obj\Debug\Serial_app.pdb
