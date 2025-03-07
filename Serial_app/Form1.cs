@@ -28,5 +28,38 @@ namespace Serial_app
         {
             serialReload();
         }
+
+        private void sendButton_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write(textBox2.Text);
+            textBox2.Text = string.Empty;
+        }
+
+        private void connectButton_Click(object sender, EventArgs e)
+        {
+            if (serialPort1.IsOpen)
+            {
+                serialPort1.Close();
+                disconnected.Checked = true;
+                connectButton.Text = "接続";
+            }
+            else
+            {
+                try
+                {
+                    serialPort1.BaudRate = 19200;
+                    serialPort1.PortName = comboBox1.Text;
+                    serialPort1.Open();
+                    connected.Checked = true;
+                    connectButton.Text = "切断";
+
+                }
+                catch (Exception)
+                {
+                    disconnected.Checked = true;
+                    //throw;
+                }
+            }
+        }
     }
 }
